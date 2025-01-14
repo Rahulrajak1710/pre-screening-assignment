@@ -1,9 +1,3 @@
-# Pre-screening Assignment
-This repository contains a pre-screening assignment/problem statement designed to evaluate a candidate's skills in Linux, DevOps, Docker, and troubleshooting.
-
-------
-------
-
 ## *Assignment Overview:*
 
 > This assignment requires the candidate to set up a full-stack application that consists of a frontend and a backend component, with a PostgreSQL database. The goal is to demonstrate your ability to configure, run, and connect different services using Docker.
@@ -47,23 +41,17 @@ Using Docker Compose or
 
 Once all services are running:
 - The frontend should be accessible at http://localhost:3000.
-![frontend](frontend-output.png)
+![Screenshot (38)](https://github.com/user-attachments/assets/47317976-af31-4244-8df1-42b713e67b3b)
 
 - The backend (FastAPI) should be accessible at http://localhost:8000/docs for the Swagger UI.
-![backend](backend-output.png)
+
+![Screenshot (37)](https://github.com/user-attachments/assets/09190872-d8cf-4fc1-9dcb-e6370268cc5f)
 
 - PostgreSQL should be running on its default port 5432.
+  ![Screenshot 2025-01-15 002644](https://github.com/user-attachments/assets/89a23783-20b8-4541-a395-a0c9368e886c)
+
 
 > ### User Interface:
 
 The frontend should prompt you for *signup* and *login* operations. You've to create a user and then login using that credentials to show that the communication between frontend and backend has been made correctly.
 After successful operations, the UI should provide appropriate feedback messages.
-
-
-> ## Documentation and Submission:
-
-- Capture a `screen-recording` or take `screenshots` of all the activities above, including running the services, accessing the frontend and backend, and user interactions and share the same recorded files/screenshots over Google Drive.
-
-- Commit all your code changes to your created branch as instructed above.
-
-- After commiting and pushing changes, copy the branch name (along with GitHub URL, and Google Drive URL) and share the same over the screening mail received on your email.
