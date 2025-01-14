@@ -40,10 +40,10 @@ Using Docker Compose or
 > ### Accessing the Application:
 
 Once all services are running:
-- The frontend should be accessible at http://localhost:3000.
+- The frontend should be accessible at http://13.232.233.48:3000.
 ![Screenshot (38)](https://github.com/user-attachments/assets/47317976-af31-4244-8df1-42b713e67b3b)
 
-- The backend (FastAPI) should be accessible at http://localhost:8000/docs for the Swagger UI.
+- The backend (FastAPI) should be accessible at http://13.232.233.48:8000/docs for the Swagger UI.
 
 ![Screenshot (37)](https://github.com/user-attachments/assets/09190872-d8cf-4fc1-9dcb-e6370268cc5f)
 
